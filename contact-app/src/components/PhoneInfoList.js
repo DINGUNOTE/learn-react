@@ -12,6 +12,8 @@ class PhoneInfoList extends Component {
       info => (<PhoneInfo onRemove={ onRemove } onUpdate={ onUpdate } info={info} key={ info.id } />)
     )
 
+    console.log('rendering list');
+
     return (
       <div>
         { list }
